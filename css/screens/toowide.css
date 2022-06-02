@@ -1,0 +1,16 @@
+.toowide {
+    background-color: var(--yellow);
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media screen and (max-width: 600px) {
+    .toowide {
+        display: none;
+    }
+}
